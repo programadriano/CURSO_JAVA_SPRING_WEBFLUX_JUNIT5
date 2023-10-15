@@ -24,3 +24,7 @@ jobs:
 
     - name: Rodar Testes Unitários
       run: mvn test
+
+    - name: Gerar Relatório de Cobertura
+      run: mvn jacoco:report  
+  
